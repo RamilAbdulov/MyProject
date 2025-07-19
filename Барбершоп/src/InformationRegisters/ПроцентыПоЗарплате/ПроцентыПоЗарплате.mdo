@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b6dd9ce-cdea-4344-9c43-e80435fc2d42">
+  <producedTypes>
+    <selectionType typeId="cd8b394e-dac8-44bc-84e5-83cab14c0fcd" valueTypeId="ab5d65c2-19fe-43c4-bc08-2ae448c9d177"/>
+    <listType typeId="d29bcbb2-e28d-446c-b52a-8057d6268572" valueTypeId="d6d5d41f-cd82-4e72-b3c1-fd3df94455e7"/>
+    <managerType typeId="b01bf3a5-a04b-4404-9d64-f732076ba998" valueTypeId="a6385913-68bf-4006-98ef-69dd9c0f3430"/>
+    <recordSetType typeId="8741ea36-4e1a-4a5d-9ba6-ece9c6c454f7" valueTypeId="60d6b854-6312-4e54-834c-641b62dcc4bd"/>
+    <recordKeyType typeId="8192f745-79e5-44fb-9d55-ce89caa385b6" valueTypeId="b79d81fd-042e-43ef-8eaf-46b0d47beb10"/>
+    <recordType typeId="d1a82136-d7d0-4064-ab87-c9a0f7fc8fbb" valueTypeId="2eb5167b-6cbc-4610-aad5-7f5fd3e0a762"/>
+    <recordManagerType typeId="df4be840-2c08-425b-bd77-5a06f2886742" valueTypeId="ee654fc6-24b8-4278-b85a-277dd2a3b9da"/>
+  </producedTypes>
+  <name>ПроцентыПоЗарплате</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проценты по зарплате</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f6442d5a-c06d-4b84-a792-e8c09228365c">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0c048441-5b49-4bf5-bdd8-51003f29bd00">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

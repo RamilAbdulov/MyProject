@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9bb9e67-1fad-4c64-aa14-d20a94389d97">
+  <name>Темный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Темный</value>
+  </synonym>
+</mdclass:Style>

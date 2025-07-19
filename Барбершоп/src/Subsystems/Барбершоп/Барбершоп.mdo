@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e9d28bd-6bb5-4db1-b9a9-c79d90ef1841">
+  <name>Барбершоп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Барбершоп</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Салоны</content>
+  <content>Catalog.Услуги</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.Клиенты</content>
+  <content>Style.Темный</content>
+  <content>Document.Оплата</content>
+  <content>Document.Записи</content>
+  <content>Document.Продажи</content>
+  <content>Document.Зарплата</content>
+  <content>Report.Продажи</content>
+  <content>Report.Деньги</content>
+  <content>Enum.СпособОплаты</content>
+  <content>Enum.ТипДенежныхСредств</content>
+  <content>Enum.ДниНедели</content>
+  <content>DataProcessor.ЖурналЗаписей</content>
+  <content>InformationRegister.ИсторияЗаписей</content>
+  <content>InformationRegister.ПроцентыПоЗарплате</content>
+  <content>InformationRegister.Цены</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>AccumulationRegister.Деньги</content>
+  <content>AccumulationRegister.Зарплата</content>
+  <content>Report.Зарплата</content>
+</mdclass:Subsystem>
